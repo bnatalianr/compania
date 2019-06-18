@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<body style="background-color:hsl(210, 33%, 20%)">
+
+    <br />
+    <br />
+    <center>
+        <div class="jumbotron" style=" background-color:darkturquoise;">
+            <h1 style="color:white"> REGISTRO DE TELEFONOS COMPAÑIA TELCEL</h1>  <br />
+            <p class="lead"   style="color:white"> Con el objetivo de tener un mejor control y manejo de los telefonos celulares que nuestros clientes compran en compañia Telcel</p> <br />
+            <p><a href="https://www.telcel.com/" class="btn btn-primary btn-lg"> Visitar pagina Telcel </a></p>
+        </div>
+    </center>
+    
+    <div class="row">
+        <center>
+            <div class="col-md-12" style=" background-color:darkturquoise;">
+                <h2> @Html.ActionLink("Usuario", "Index", "usuarios")</h2>
+                <p style="color:white"> REGISTRAR USUARIO NUEVO TELCEL </p>
+                @*<p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>*@
+            </div>
+        </center>
+    </div>
+
+</body>

@@ -1,0 +1,99 @@
+﻿@model Proyecompania.Models.usuario
+
+@{
+    ViewBag.Title = "Detalles";
+}
+
+<h2>DETALLES</h2>
+
+<div>
+    <h4>Usuario</h4>
+    <hr />
+    <dl class="dl-horizontal">
+
+        <dt>
+            @Html.DisplayNameFor(model => model.nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.direccion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.direccion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.sexo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.sexo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.pais)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.pais)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.correo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.correo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.versiontelefono)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.versiontelefono)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.numerotelefono)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.numerotelefono)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.marcatelefono)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.marcatelefono)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.colortelefono)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.colortelefono)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.fecha)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fecha)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.nombre }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
