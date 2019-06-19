@@ -12,7 +12,7 @@ namespace Proyecompania.Controllers
 {
     public class usuariosController : Controller
     {
-        private companiaEntities db = new companiaEntities();
+        private companiaEntities1 db = new companiaEntities1();
 
         // GET: usuarios
         public ActionResult Index()

@@ -139,23 +139,23 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\DBModel1.Context.cs">
+    <Compile Include="Models\Modelcompania.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>DBModel1.Context.tt</DependentUpon>
+      <DependentUpon>Modelcompania.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\DBModel1.cs">
+    <Compile Include="Models\Modelcompania.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>DBModel1.tt</DependentUpon>
+      <DependentUpon>Modelcompania.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\DBModel1.Designer.cs">
+    <Compile Include="Models\Modelcompania.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>DBModel1.edmx</DependentUpon>
+      <DependentUpon>Modelcompania.edmx</DependentUpon>
     </Compile>
     <Compile Include="Models\usuario.cs">
-      <DependentUpon>DBModel1.tt</DependentUpon>
+      <DependentUpon>Modelcompania.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -168,25 +168,26 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="Models\DBModel1.Context.tt">
+    <Content Include="Models\Modelcompania.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>DBModel1.Context.cs</LastGenOutput>
-      <DependentUpon>DBModel1.edmx</DependentUpon>
+      <DependentUpon>Modelcompania.edmx</DependentUpon>
+      <LastGenOutput>Modelcompania.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="Models\DBModel1.tt">
+    <Content Include="Models\Modelcompania.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>DBModel1.edmx</DependentUpon>
-      <LastGenOutput>DBModel1.cs</LastGenOutput>
+      <DependentUpon>Modelcompania.edmx</DependentUpon>
+      <LastGenOutput>Modelcompania.cs</LastGenOutput>
     </Content>
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <EntityDeploy Include="Models\DBModel1.edmx">
+    <EntityDeploy Include="Models\Modelcompania.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>DBModel1.Designer.cs</LastGenOutput>
+      <LastGenOutput>Modelcompania.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <Content Include="Models\DBModel1.edmx.diagram">
-      <DependentUpon>DBModel1.edmx</DependentUpon>
+    <Content Include="Models\Modelcompania.edmx.diagram">
+      <DependentUpon>Modelcompania.edmx</DependentUpon>
     </Content>
+    <None Include="Properties\PublishProfiles\Proyecompania - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />

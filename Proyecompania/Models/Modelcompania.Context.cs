@@ -13,10 +13,10 @@ namespace Proyecompania.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class companiaEntities : DbContext
+    public partial class companiaEntities1 : DbContext
     {
-        public companiaEntities()
-            : base("name=companiaEntities")
+        public companiaEntities1()
+            : base("name=companiaEntities1")
         {
         }
     
